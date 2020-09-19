@@ -3,12 +3,18 @@ package com.dtcc.polypets;
 
 public class Cow extends Pet{
 
-    public Cow(String name){
+    public Cow(String name, String speak){
         super(name);
     }
 
-//    public Cow(String name, String speak) {
-//        super(name, speak);
-//    }
+    public Cow(String nameOfPet) {
+        super();
+    }
+
+    public String getSpeak(){
+        String speak = "MOOO MOOO";
+        return speak;
+    }
+
 
 }
